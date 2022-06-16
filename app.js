@@ -41,7 +41,7 @@ app.post("/", function(req, res){
 
     const options = {
         method: "POST",
-        auth: "jimson: 9dac9ba0a6964b7e76e4ba0cdbfe1230-us9"
+        auth: "jimson:9dac9ba0a6964b7e76e4ba0cdbfe1230-us9"
     }
 
     const request = https.request(url, options, function(response){
